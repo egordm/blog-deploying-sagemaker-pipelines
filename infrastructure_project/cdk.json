@@ -1,0 +1,13 @@
+{
+  "app": "python app.py",
+  "context": {
+    "region": "eu-west-1",
+    "account": "<account id>",
+    "resource_prefix": "dsm",
+    "vpc_name": null,
+    "tags": {
+      "application": "luminis-blog-deploying-sagemaker-pipelines",
+      "cost-center": "luminis-blog-deploying-sagemaker-pipelines"
+    }
+  }
+}

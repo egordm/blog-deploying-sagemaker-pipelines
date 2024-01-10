@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blog-deploying-sagemaker-pipelines"
+version = "0.1.0"
+description = ""
+authors = ["Egor Dmitriev <egor.dmitriev@luminis.eu>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+infrastructure_project = {path = "./infrastructure_project", develop = true}
+data_project = {path = "./data_project", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
